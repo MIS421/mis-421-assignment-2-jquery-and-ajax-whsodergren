@@ -3,14 +3,22 @@
 <html lang="en">
 
 <head>
-
-  <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/dot-luv/jquery-ui.min.css" integrity="sha384-aNryxxw5uvO9rQMOj8Y9ufLSfU4ZjKQjAUpb0Rfzw6Cy/KtJ1SPACf7ZMNauk0Fj" crossorigin="anonymous">
+    <title>SearchTap</title>
 </head>
 
 <body>
+    <h1 onclick="changeBackground()">SearchTap</h1>
+    <input type="text" id="query" />
+    <button id="searchButton" onclick="searchFunction()">Search</button>
+    <button onclick="getCurrentTime()">Show Time</button>
+    <div id="searchResults"></div>
+    <div id="time"></div>
 
-  <script type="text/javascript" src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
